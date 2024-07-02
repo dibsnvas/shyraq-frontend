@@ -13,16 +13,6 @@ function Body() {
       <h1 className="text-3xl md:text-4xl font-bold text-black" style={{ fontFamily: 'Dela Gothic One' }}>
         Твой чат-бот друг
       </h1>
-      <img 
-        src={cloud} 
-        alt="cloud" 
-        className="absolute top-0 left-4 md:left-12 h-12 md:h-24"
-      />
-      <img 
-        src={cloud2} 
-        alt="cloud" 
-        className="absolute bottom-0 right-4 md:right-16 h-12 md:h-24"
-      />
       </div>
       <button 
         onClick={handleClick}
