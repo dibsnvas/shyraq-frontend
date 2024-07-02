@@ -1,4 +1,3 @@
-import React from 'react';
 import image from '../assets/image.png'; 
 import cloud from '../assets/cloud.png';
 import cloud2 from '../assets/cloud2.png';

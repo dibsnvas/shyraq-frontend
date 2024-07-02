@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './home.css';
 import Draggable from 'react-draggable';
 import SemiCircleSquare from '../homepage/SemiCircleSquare';
