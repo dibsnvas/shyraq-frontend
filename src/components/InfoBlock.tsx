@@ -4,7 +4,7 @@ function InfoBlock() {
   return (
     <div className="bg-customBlue text-white flex flex-col items-center justify-center p-10">
       <h2 className="text-4xl mb-6">
-        <span className="text-white font-serif">Shyraq</span> <span className="text-black font-bold">это:</span>
+        <span className="text-white font-serif">Про</span> <span className="text-customYellow font-bold">нас:</span>
       </h2>
       <div className="flex flex-col sm:flex-row justify-center gap-8">
         <div className="bg-customYellow text-black p-6 rounded-lg shadow-lg text-center flex flex-col items-center w-full sm:w-1/4">
