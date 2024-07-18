@@ -12,10 +12,6 @@ const Header = () => {
     window.location.href = 'http://localhost:5174/';
   };
 
-  const handleClick1 = () => {
-    window.location.href = 'http://localhost:5175/';
-  };
-
   return (
     <header className="fixed top-0 left-0 right-0 z-50 flex justify-between items-center p-4 bg-customYellow text-black shadow-md">
       <div className="text-lg font-bold">SHYRAQ</div>

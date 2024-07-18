@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaRocket, FaLanguage, FaGraduationCap, FaShieldAlt } from 'react-icons/fa'; 
 
 function InfoBlock() {

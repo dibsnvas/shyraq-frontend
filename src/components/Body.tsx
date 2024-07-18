@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { FaTimes, FaBars } from 'react-icons/fa'; // Make sure you have these icons available
 import A from '../assets/A.jpg';
 import B from '../assets/B.jpg';
 import C from '../assets/C.jpg';
