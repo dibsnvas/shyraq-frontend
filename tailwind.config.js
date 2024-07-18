@@ -9,7 +9,8 @@ module.exports = {
       colors: {
         customBlue: '#003049',
         customYellow: '#EDE3A1',
-        customOrange: '#FCBF49'
+        customOrange: '#FCBF49',
+        customBlue1: '#004062'
       },
       fontFamily: {
         custom: ['"Climate Crisis"', 'sans-serif', 'Dela Gothic One', 'Work Sans'],

@@ -9,16 +9,15 @@ const Header = () => {
   };
 
   const handleClick = () => {
-    window.location.href = 'http://localhost:5173/';
+    window.location.href = 'http://localhost:5174/';
   };
 
   const handleClick1 = () => {
     window.location.href = 'http://localhost:5175/';
   };
-  
 
   return (
-    <header className="flex justify-between items-center p-4 bg-customYellow text-black relative">
+    <header className="fixed top-0 left-0 right-0 z-50 flex justify-between items-center p-4 bg-customYellow text-black shadow-md">
       <div className="text-lg font-bold">SHYRAQ</div>
       <div className="md:hidden">
         <button onClick={handleToggle} aria-label="Toggle menu">
@@ -29,7 +28,6 @@ const Header = () => {
         <ul className="flex flex-col md:flex-row font-serif space-y-2 md:space-y-0 md:space-x-4 w-full md:w-auto">
           <li><button className="hover:underline" onClick={handleClick}>Чат-бот</button></li>
           <li><button className="hover:underline">Игры</button></li>
-          <li><button className="hover:underline" onClick={handleClick1}>Сказки</button></li>
           <li><button className="hover:underline">Язык жестов</button></li>
         </ul>
       </nav>

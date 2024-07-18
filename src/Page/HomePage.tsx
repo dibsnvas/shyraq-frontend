@@ -14,59 +14,61 @@ import Dot from '../homepage/dot';
 const HomePage: React.FC = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-customBlue text-white font-custom p-4">
-      <h1 className="text-5xl md:text-8xl font-bold text-customYellow">SHYRAQ</h1>
-      <p className="text-xl md:text-2xl mt-4 font-serif text-customYellow">Играй.Расти.Развивайся</p>
-      <div className="grid">
-        <Draggable>
-          <div>
-            <SemiCircleSquare />
-          </div>
-        </Draggable>
-        <Draggable>
-          <div>
-            <FourCircles />
-          </div>
-        </Draggable>
-        <Draggable>
-          <div>
-            <Circle />
-          </div>
-        </Draggable>
-        <Draggable>
-          <div>
-            <HalfCircle />
-          </div>
-        </Draggable>
-        <Draggable>
-          <div>
-            <QuarterCircle />
-          </div>
-        </Draggable>
-        <Draggable>
-          <div>
-            <SemiCircleBottom />
-          </div>
-        </Draggable>
-        <Draggable>
-          <div>
-            <CircleWithDot />
-          </div>
-        </Draggable>
-        <Draggable>
-          <div>
-            <HalfSquare />
-          </div>
-        </Draggable>
-        <Draggable>
-          <div>
-            <Dot />
-          </div>
-        </Draggable>
-        <Draggable>
-          <div>
-          <HalfSquare />
-          </div>
-        </Draggable>
+      <h1 className="text-5xl md:text-9xl font-bold text-customYellow">SHYRAQ</h1>
+      <p className="text-xl md:text-2xl mt-4 font-serif text-customYellow">Слышать сердцем, говорить руками, понимать душой</p>
+      <div className="grid-container">
+        <div className="grid">
+          <Draggable bounds="parent">
+            <div>
+              <SemiCircleSquare />
+            </div>
+          </Draggable>
+          <Draggable bounds="parent">
+            <div>
+              <FourCircles />
+            </div>
+          </Draggable>
+          <Draggable bounds="parent">
+            <div>
+              <Circle />
+            </div>
+          </Draggable>
+          <Draggable bounds="parent">
+            <div>
+              <HalfCircle />
+            </div>
+          </Draggable>
+          <Draggable bounds="parent">
+            <div>
+              <QuarterCircle />
+            </div>
+          </Draggable>
+          <Draggable bounds="parent">
+            <div>
+              <SemiCircleBottom />
+            </div>
+          </Draggable>
+          <Draggable bounds="parent">
+            <div>
+              <CircleWithDot />
+            </div>
+          </Draggable>
+          <Draggable bounds="parent">
+            <div>
+              <HalfSquare />
+            </div>
+          </Draggable>
+          <Draggable bounds="parent">
+            <div>
+              <Dot />
+            </div>
+          </Draggable>
+          <Draggable bounds="parent">
+            <div>
+              <HalfSquare />
+            </div>
+          </Draggable>
+        </div>
       </div>
     </div>
   );

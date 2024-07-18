@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
           <div className="w-full md:w-auto">
             <h3 className="font-bold mb-4">Меню</h3>
             <ul className="list-none p-0">
-              <li className="mb-2">Голосовой чат-бот</li>
+              <li className="mb-2">Чат-бот</li>
               <li className="mb-2">Игры</li>
               <li className="mb-2">Сказки</li>
             </ul>
