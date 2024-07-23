@@ -1,10 +1,8 @@
-import React from 'react';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { FaInstagram } from 'react-icons/fa';
 
 const Footer: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
-
 
   const handleClick1 = () => {
     window.location.href = 'https://gamepage-sand.vercel.app/';
