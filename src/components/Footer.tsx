@@ -42,6 +42,7 @@ const Footer: React.FC = () => {
             </a>
           </div>
         </div>
+        {isOpen && <div className="mt-4">Additional Content Here</div>}
       </div>
     </footer>
   );
