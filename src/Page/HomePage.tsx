@@ -13,7 +13,7 @@ import Dot from '../homepage/dot';
 
 const HomePage: React.FC = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-customBlue text-white font-custom p-4 ">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-customBlue text-white font-custom p-4">
       <h1 className="text-5xl md:text-9xl font-bold text-customYellow">SHYRAQ</h1>
       <p className="text-xl md:text-2xl mt-4 font-serif text-customYellow">Учите и переводите с языка жестов в реальном времени здесь</p>
       <div className="grid-container">

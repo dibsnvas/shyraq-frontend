@@ -13,6 +13,10 @@ function Body() {
   const handleClick = () => {
     window.location.href = 'http://localhost:5174/';
   };
+  
+  const handleClick1 = () => {
+    window.location.href = 'https://gamepage-sand.vercel.app/';
+  }
 
   return (
     <div>
@@ -26,11 +30,11 @@ function Body() {
             </button>
             <p className="font-bold">Поговори с нашим чат-ботом</p>
           </div>
-          <div className="bg-white p-4 rounded-lg shadow-lg cursor-pointer text-center flex flex-col items-center transition-transform transform hover:scale-95">
+          <div className="bg-white p-4 rounded-lg shadow-lg cursor-pointer text-center flex flex-col items-center transition-transform transform hover:scale-95" onClick={handleClick1}>
             <div className="bg-white w-96 h-72 mb-4 rounded-lg">
-              <img src={B} alt="Arcade" className="w-full h-full object-cover rounded-lg" />
+              <img src={B} alt="Arcade" className="w-full h-full object-cover rounded-lg"/>
             </div>
-            <p className="font-bold">Поиграть в интересные <hr />развивающие игры</p>
+            <p className="font-bold" >Поиграть в интересные <hr />развивающие игры</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-lg cursor-pointer text-center flex flex-col items-center transition-transform transform hover:scale-95">
             <div className="bg-white w-96 h-72 mb-4 rounded-lg">

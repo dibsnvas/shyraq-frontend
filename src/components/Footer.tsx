@@ -1,26 +1,37 @@
 import React from 'react';
+import { useState } from 'react';
 import { FaInstagram } from 'react-icons/fa';
 
 const Footer: React.FC = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleToggle = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const handleClick1 = () => {
+    window.location.href = 'https://gamepage-sand.vercel.app/';
+  };
+
   return (
     <footer className="bg-customYellow text-black py-10">
       <div className="container mx-auto px-24">
         <div className="flex flex-wrap gap-8 md:gap-16">
           <div className="w-full md:w-auto">
             <h3 className="font-bold mb-4">Меню</h3>
-            <ul className="list-none p-0">
-              <li className="mb-2">Чат-бот</li>
-              <li className="mb-2">Игры</li>
-              <li className="mb-2">Сказки</li>
-            </ul>
+            <div className="flex flex-col">
+              <button className="mb-2 text-left" onClick={() => alert('Чат-бот clicked')}>Чат-бот</button>
+              <button className="mb-2 text-left" onClick={handleClick1}>Игры</button>
+              <button className="mb-2 text-left" onClick={() => alert('Сказки clicked')}>Сказки</button>
+            </div>
           </div>
           <div className="w-full md:w-auto">
             <h3 className="font-bold mb-4">Поддержка</h3>
-            <ul className="list-none p-0">
-              <li className="mb-2">FAQs</li>
-              <li className="mb-2">Контакты</li>
-              <li className="mb-2">Отзывы</li>
-            </ul>
+            <div className="flex flex-col">
+              <button className="mb-2 text-left" onClick={() => alert('FAQs clicked')}>FAQs</button>
+              <button className="mb-2 text-left" onClick={() => alert('Контакты clicked')}>Контакты</button>
+              <button className="mb-2 text-left" onClick={() => alert('Отзывы clicked')}>Отзывы</button>
+            </div>
           </div>
         </div>
         <div className="flex flex-col md:flex-row justify-between items-center mt-8">
