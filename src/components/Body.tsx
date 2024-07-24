@@ -20,24 +20,31 @@ function Body() {
 
   return (
     <div>
-      <div className="bg-customYellow text-2xl min-h-screen flex items-center justify-center sm:py-0 py-12">
-        <div className="flex flex-col sm:flex-row justify-center gap-9">
-          <div onClick={handleClick} className="bg-white p-4 rounded-lg shadow-lg cursor-pointer text-center flex flex-col items-center transition-transform transform hover:scale-95">
-            <div className="bg-white w-96 h-72 mb-4 rounded-lg">
+      <div className="bg-customYellow text-2xl min-h-screen flex items-center justify-center py-12">
+        <div className="flex flex-col md:flex-row justify-center gap-9">
+          <div 
+            onClick={handleClick} 
+            className="bg-white p-4 rounded-lg shadow-lg cursor-pointer text-center flex flex-col items-center transition-transform transform hover:scale-95 w-full md:w-1/3"
+          >
+            <div className="bg-white w-full h-72 mb-4 rounded-lg">
               <img src={main1} alt="Bot" className="w-full h-full object-cover rounded-lg" />
             </div>
-            <button onClick={handleToggle} aria-label="Toggle menu">
-            </button>
+            <button onClick={handleToggle} aria-label="Toggle menu"></button>
             <p className="font-bold">Поговори с нашим чат-ботом</p>
           </div>
-          <div className="bg-white p-4 rounded-lg shadow-lg cursor-pointer text-center flex flex-col items-center transition-transform transform hover:scale-95" onClick={handleClick1}>
-            <div className="bg-white w-96 h-72 mb-4 rounded-lg">
+          <div 
+            className="bg-white p-4 rounded-lg shadow-lg cursor-pointer text-center flex flex-col items-center transition-transform transform hover:scale-95 w-full md:w-1/3" 
+            onClick={handleClick1}
+          >
+            <div className="bg-white w-full h-72 mb-4 rounded-lg">
               <img src={B} alt="Arcade" className="w-full h-full object-cover rounded-lg"/>
             </div>
-            <p className="font-bold" >Поиграть в интересные <hr />развивающие игры</p>
+            <p className="font-bold">Поиграть в интересные <hr />развивающие игры</p>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-lg cursor-pointer text-center flex flex-col items-center transition-transform transform hover:scale-95">
-            <div className="bg-white w-96 h-72 mb-4 rounded-lg">
+          <div 
+            className="bg-white p-6 rounded-lg shadow-lg cursor-pointer text-center flex flex-col items-center transition-transform transform hover:scale-95 w-full md:w-1/3"
+          >
+            <div className="bg-white w-full h-72 mb-4 rounded-lg">
               <img src={C} alt="Sign Language" className="w-full h-full object-cover rounded-lg" />
             </div>
             <p className="font-bold">Перевести язык жестов</p>
