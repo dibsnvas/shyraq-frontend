@@ -15,6 +15,7 @@ module.exports = {
       fontFamily: {
         custom: ['"Climate Crisis"', 'sans-serif', 'Dela Gothic One', 'Work Sans'],
         serif: ['"PT Serif"', 'serif'],
+        need: ['"Bree Serif"']
       },
     },
   },
