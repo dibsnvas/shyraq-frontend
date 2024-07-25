@@ -162,13 +162,13 @@ h1 {
   }
 
   .first_cont, .second_cont, .third_cont, .four_circles_cont, .semi_circle_square_cont, .circle_cont, .half_circle_cont, .quarter_circle_cont, .semi_circle_bottom_cont, .circle_with_dot_cont, .half_square_cont {
-    width: 85px; /* Adjust size for mobile view */
-    height: 85px; /* Adjust size for mobile view */
+    width: 70px; /* Adjust size for mobile view */
+    height: 70px; /* Adjust size for mobile view */
   }
 
   .circle {
     margin-left: 5px;
-    width: 35px; /* Adjust size for mobile view */
-    height: 35px; /* Adjust size for mobile view */
+    width: 30px; /* Adjust size for mobile view */
+    height: 30px; /* Adjust size for mobile view */
   }
 }
