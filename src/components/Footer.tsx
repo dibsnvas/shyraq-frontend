@@ -4,6 +4,10 @@ import { FaInstagram } from 'react-icons/fa';
 const Footer: React.FC = () => {
   const [isOpen] = useState(false);
 
+  const handleClick = () => {
+    window.location.href = 'https://chatbotfront-bhss.vercel.app/';
+  }
+
   const handleClick1 = () => {
     window.location.href = 'https://gamepage-sand.vercel.app/';
   };
@@ -15,7 +19,7 @@ const Footer: React.FC = () => {
           <div className="w-full md:w-auto">
             <h3 className="font-bold mb-4">Меню</h3>
             <div className="flex flex-col">
-              <button className="mb-2 text-left" onClick={() => alert('Чат-бот clicked')}>Чат-бот</button>
+              <button className="mb-2 text-left" onClick={handleClick}>Чат-бот</button>
               <button className="mb-2 text-left" onClick={handleClick1}>Игры</button>
               <button className="mb-2 text-left" onClick={() => alert('Сказки clicked')}>Сказки</button>
             </div>

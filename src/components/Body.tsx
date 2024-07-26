@@ -11,7 +11,7 @@ function Body() {
   };
 
   const handleClick = () => {
-    window.location.href = 'http://localhost:5174/';
+    window.location.href = 'https://chatbotfront-bhss.vercel.app/';
   };
   
   const handleClick1 = () => {
