@@ -9,7 +9,6 @@ import QuarterCircle from '../homepage/QuarterCircle';
 import SemiCircleBottom from '../homepage/SemiCircleBottom';
 import CircleWithDot from '../homepage/CircleWithDot';
 import HalfSquare from '../homepage/HalfSquare';
-import Dot from '../homepage/dot';
 
 const HomePage: React.FC = () => {
   return (
