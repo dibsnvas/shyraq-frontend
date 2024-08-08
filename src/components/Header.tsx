@@ -15,6 +15,10 @@ const Header = () => {
   const handleClick1 = () => {
     window.location.href = 'https://gamepage-sand.vercel.app/';
   };
+
+  const handleClick2 = () => {
+    window.location.href = 'https://sign-language-app.azurewebsites.net/';
+  };
   
 
   return (
@@ -29,7 +33,7 @@ const Header = () => {
         <ul className="flex flex-col md:flex-row font-serif space-y-2 md:space-y-0 md:space-x-4 w-full md:w-auto">
           <li><button className="hover:underline" onClick={handleClick}>Чат-бот</button></li>
           <li><button className="hover:underline" onClick={handleClick1}>Игры</button></li>
-          <li><button className="hover:underline">Язык жестов</button></li>
+          <li><button className="hover:underline" onClick={handleClick2}>Язык жестов</button></li>
         </ul>
       </nav>
     </header>

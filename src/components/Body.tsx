@@ -18,6 +18,12 @@ function Body() {
     window.location.href = 'https://gamepage-sand.vercel.app/';
   }
 
+    
+  const handleClick2 = () => {
+    window.location.href = 'https://sign-language-app.azurewebsites.net/';
+  }
+
+
   return (
     <div>
       <div className="bg-customYellow text-2xl min-h-screen flex items-center justify-center py-12">
@@ -43,7 +49,7 @@ function Body() {
           </div>
           <div 
             className="bg-white p-6 rounded-lg shadow-lg cursor-pointer text-center flex flex-col items-center transition-transform transform hover:scale-95 w-full md:w-1/3"
-          >
+            onClick={handleClick2}>
             <div className="bg-white w-full h-72 mb-4 rounded-lg">
               <img src={C} alt="Sign Language" className="w-full h-full object-cover rounded-lg" />
             </div>
